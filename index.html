@@ -61,7 +61,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--pink);outline-offse
 .wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:96px}
 .eyebrow{font-family:var(--f-lat);font-style:italic;font-size:1.05rem;letter-spacing:.08em;color:var(--pink-deep)}
 .sec-head{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
-.sec-head h2{font-family:var(--f-ja);font-size:clamp(1.7rem,4.6vw,2.4rem);font-weight:800;letter-spacing:.02em}
+.sec-head h2{font-family:var(--f-ja);font-size:clamp(1.3rem,6.2vw,2.4rem);font-weight:800;letter-spacing:.02em;white-space:nowrap;text-wrap:nowrap}
 .sec-head .ko{font-size:1.05rem;color:var(--ink-soft);font-weight:400}
 
 /* reveal on scroll (visible at rest; JS only adds the entrance) */
@@ -173,7 +173,7 @@ html.js .hero-stack.in .c2{transition-delay:.12s}html.js .hero-stack.in .c3{tran
 .day-head .badge{font-family:var(--f-lat);font-style:italic;font-weight:600;font-size:clamp(3rem,8vw,4.6rem);line-height:.9;color:var(--pink-deep);letter-spacing:-.02em}
 .day-head .txt{display:flex;flex-direction:column;gap:4px;min-width:0}
 .day-head .date{font-size:.9rem;color:var(--ink-soft)}
-.day-head h2{font-family:var(--f-ja);font-size:clamp(1.5rem,4.4vw,2.2rem);font-weight:800}
+.day-head h2{font-family:var(--f-ja);font-size:clamp(1.2rem,5.4vw,2.2rem);font-weight:800;white-space:nowrap;text-wrap:nowrap}
 .day-head h2 .ko{font-size:.9em}
 .day-grid{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:start}
 .day-main{display:flex;flex-direction:column;gap:24px;min-width:0}
@@ -476,11 +476,6 @@ footer{text-align:center;font-size:.78rem;color:var(--ink-soft);line-height:1.8}
         <li><span class="t ja">夜</span><span class="dot"></span><div class="what"><b>その<ruby>場<rt>ば</rt></ruby>で<ruby>食<rt>た</rt></ruby>べたいものを</b><span>あえて予約なし。気分で選んで、のんびり過ごします。</span></div></li>
       </ol>
 
-      <div class="note rv">
-        <span class="ko">인생샷 보증서 📸</span>
-        <ruby>可愛<rt>かわい</rt></ruby>い<ruby>着物<rt>きもの</rt></ruby><ruby>姿<rt>すがた</rt></ruby>の「<ruby>人生<rt>じんせい</rt></ruby>ショット（인생샷）」を、<ruby>必<rt>かなら</rt></ruby>ずお<ruby>届<rt>とど</rt></ruby>けすることを<ruby>誓<rt>ちか</rt></ruby>います。<ruby>韓服<rt>ハンボク</rt></ruby>はすでにプロ（<ruby>右<rt>みぎ</rt></ruby>の<ruby>証拠<rt>しょうこ</rt></ruby><ruby>写真<rt>しゃしん</rt></ruby>をご<ruby>覧<rt>らん</rt></ruby>ください）。<ruby>次<rt>つぎ</rt></ruby>は<ruby>着物<rt>きもの</rt></ruby>です。
-      </div>
-
       <div class="venue rv">
         <div class="ph"><img src="img/tekuteku.jpg" alt="てくてく京都の着物" loading="lazy" style="object-position:72% 30%"></div>
         <div class="info">
@@ -511,7 +506,7 @@ footer{text-align:center;font-size:.78rem;color:var(--ink-soft);line-height:1.8}
       </div>
     </div>
     <aside class="day-side">
-      <figure class="photo tilt-r rv"><img class="lb-open" src="img/us/hanbok.jpg" alt="小さいころ、韓服を着た선우" data-cap="韓服はすでにプロ"><figcaption><span class="nw">韓服は</span><span class="nw">すでにプロ</span></figcaption></figure>
+      <figure class="photo tilt-r rv"><img class="lb-open" src="img/us/hanbok.jpg" alt="小さいころ、韓服を着た선우" data-cap="小さいころ、韓服で"><figcaption><span class="nw">小さいころ、</span><span class="nw">韓服で</span></figcaption></figure>
       <figure class="photo tilt-l rv d1"><img class="lb-open" src="img/us/matcha.jpg" alt="抹茶クレープを持って笑う선우" data-cap="抹茶への愛、実績あり"><figcaption><span class="nw">抹茶への愛、</span><span class="nw">実績あり</span></figcaption></figure>
     </aside>
   </div>
